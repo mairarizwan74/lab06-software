@@ -1,0 +1,1 @@
+`apt update` downloads the latest package information from the repositories but does not install software updates. `apt upgrade` uses that information to install newer versions of packages that are already installed. We should run `apt update` first so Ubuntu knows which package versions are available. After that, we can use `apt upgrade` to upgrade the installed packages
